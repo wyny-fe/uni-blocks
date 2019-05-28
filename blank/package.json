@@ -1,24 +1,10 @@
 {
-  "name": "@uni-block/blank",
-  "version": "0.0.1",
-  "description": "",
-  "main": "src/index.js",
-  "authors": {
-    "name": "",
-    "email": ""
-  },
-  "repository": "https://github.com/wyny-fe/uni-blocks/blank",
-  "scripts": {
-    "dev": "umi dev"
-  },
+  "name": "@umi-block/blank",
+  "description": "A blank block for quick start a umi page develop.",
   "dependencies": {
-    "react": ">=16.0.0"
+    "umi-request": "^1.0.0"
   },
-  "devDependencies": {
-    "umi": "^2.0.0",
-    
-    "umi-plugin-block-dev": "^1.0.0"
-    
-    },
-  "license": "MIT"
+  "blockConfig": {
+    "specVersion": "0.1"
+  }
 }
