@@ -1,0 +1,8 @@
+{
+  "name": "uni-blocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wyny-fe/uni-blocks.git",
+  "author": "jinxin0112 <m18508218948@163.com>",
+  "license": "MIT"
+}
