@@ -1,5 +1,7 @@
 export default {
   'GET /api/BLOCK_NAME/text': {
-    text: 'I am a blank block',
+    code: 1001,
+    message: '操作成功',
+    data: 'I am a blank block',
   },
 };

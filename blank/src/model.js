@@ -8,11 +8,10 @@ export default {
 
   effects: {
     *fetch(_, { call, put }) {
-      const { text } = yield call(getText);
       yield put({
         type: 'save',
         payload: {
-          text,
+          text: yield call(getText),
         },
       });
     },

@@ -1,0 +1,1 @@
+export default ()=><h3>hello wyny block</h3>

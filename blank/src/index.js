@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'antd';
 import { connect } from 'dva';
 
+import Hello from './_components/Hello';
 import styles from './style.less';
 
 @connect(({ BLOCK_NAME_CAMEL_CASE }) => BLOCK_NAME_CAMEL_CASE)
@@ -17,6 +18,7 @@ class Page extends Component {
     const { text } = this.props;
     return (
       <div className={styles.container}>
+        <Hello />
         <Button>{text}</Button>
       </div>
     );
